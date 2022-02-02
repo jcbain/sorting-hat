@@ -1,0 +1,19 @@
+{
+  "name": "sorting-server",
+  "version": "0.0.1",
+  "description": "backend for sorting hat",
+  "main": "index.js",
+  "author": "James Bain",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.10"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
